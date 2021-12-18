@@ -194,16 +194,16 @@ WARN AppiumDoctor  ✖ Carthage was NOT found!
 At this point **appium-doctor** will complain about *ANDROID_HOME*, *JAVA_HOME* environment variables and *Carthage*, let's fix environment variables first. Create *.bash_profile* file in the root:
 
 ```shell
-$ touch ~/.bash_profile
+$ touch ~/.zprofile
 ```
 
 Open the file:
 
 ```shell
-$ nano ~/.bash_profile
+$ nano ~/.zprofile
 ```
 
-And change content of the `.bash_profile` to:
+And change content of the `.zprofile` to:
 
 ```shell
 export JAVA_HOME=$(/usr/libexec/java_home)
